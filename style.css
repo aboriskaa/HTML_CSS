@@ -1,0 +1,162 @@
+body {
+    font-family: sans-serif;
+
+}
+
+
+
+.parag {
+    font-size: 16px;
+    line-height: 26px;
+    color: #1F3F68;
+}
+
+.h1title {
+    font-size: 64px;
+    color: #1F3F68;
+}
+
+/*
+.h2style {
+    font-weight: 500;
+    font-size: 44px;
+    text-align: center;
+}
+*/
+.h2style_contacts {
+    font-weight: 500;
+    font-size: 44px;
+    text-align: center;
+}
+
+.h3style {
+    font-size: 36px;
+    text-align: center;
+}
+
+.h4style {
+    font-size: 20px;
+    line-height: 30px;
+    color: #1F3F68;
+}
+
+.inpStyle {
+    border: 1px solid #356EAD;
+    box-sizing: border-box;
+    border-radius: 10px;
+    opacity: 0.4;
+}
+
+.buttStyle {
+    background: #5A98D0;
+    box-shadow: 5px 20px 50px rgba(16, 112, 177, 0.2);
+    border-radius: 10px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    color: #FFFFFF;
+    text-transform: uppercase;
+}
+
+.header_main_block {
+    width: 100%;
+    background-color: rgb(255, 115, 115);
+}
+
+.header_center_block {
+    margin-left: 10%;
+    margin-right: 10%;
+    background-color: rgb(218, 86, 255);
+}
+
+.header_menu_block {
+    background-color: rgb(57, 167, 57);
+}
+
+.header_logo_block {
+    width: 40%;
+    background-color: rgb(75, 255, 75);
+}
+
+.header_contact_block {
+    width: 100%;
+    background-color: rgb(75, 255, 75);
+}
+
+.middle_center_block {
+    margin-left: 10%;
+    margin-right: 10%;
+    background-color: rgb(218, 86, 255);
+}
+
+.middle_content_block {
+
+    width: 100%;
+    background-color: rgb(57, 167, 57);
+}
+
+.middle_adress_block {
+    float: left;
+    width: 50%;
+    background-color: rgb(57, 167, 57);
+}
+
+.middle_submitform_block {
+    margin-left: auto;
+    margin-right: auto;
+    float: left;
+    width: 50%;
+    height: 100%;
+    background-color: rgb(116, 57, 167);
+
+}
+
+.clear {
+    clear: both
+}
+
+.middle_news_block {
+    width: 40%;
+    background-color: rgb(75, 255, 75);
+}
+
+.middle_foot_block {
+    margin-left: 10%;
+    margin-right: 10%;
+    background-color: rgb(255, 115, 115);
+}
+
+.middle_map_block {
+    margin-left: auto;
+    margin-right: auto;
+    width: 500px;
+    background-color: rgb(255, 115, 115);
+}
+
+.footer_main_block {
+    width: 100%;
+    background-color: rgb(255, 115, 115);
+}
+
+.footer_center_block {
+    margin-left: 10%;
+    margin-right: 10%;
+    background-color: rgb(223, 223, 223);
+}
+
+.footer_news_block {
+    width: 40%;
+    background-color: rgb(218, 86, 255);
+}
+
+.footer_bottom_block {
+    margin-left: 10%;
+    margin-right: 10%;
+    background-color: rgb(218, 86, 255);
+}
+
+.footer_rights_block {
+    width: 100%;
+    background-color: rgb(223, 223, 223);
+}
