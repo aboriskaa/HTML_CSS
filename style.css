@@ -221,7 +221,5 @@ body {
 }
 
 .footer_rights_block {
-    margin-left: 2%;
-    margin-right: 2%;
-    border: 1px solid rgb(223, 223, 223);
+    border: 1px solid rgb(255, 0, 0);
 }
