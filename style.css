@@ -8,10 +8,8 @@ body {
 }
 
 .container {
-    width: 1140px;
+    max-width: 1140px;
     margin: 0 auto;
-    display: flex;
-    flex-direction: column;
 }
 
 .parag {
@@ -20,6 +18,17 @@ body {
     letter-spacing: 0.05em;
     color: #1F3F68;
     opacity: 0.6;
+}
+
+.parag_project {
+    text-align: center;
+    padding-top: 32px;
+    padding-bottom: 64px;
+    width: 75%;
+    margin: 0 auto;
+    color: #222222;
+    opacity: 1;
+
 }
 
 .h1title {
@@ -34,14 +43,12 @@ body {
 .h2style_contacts {
     font-weight: 500;
     font-size: 44px;
-    text-align: center;
 }
 
 .h3style {
     font-weight: 300;
     font-size: 36px;
     line-height: 46px;
-    text-align: center;
     letter-spacing: 0.05em;
     color: #000000;
 }
@@ -162,7 +169,7 @@ body {
     margin-top: 64px;
 }
 
-.middle_center_block>h3 {
+.what-we-do>h3 {
     text-align: center;
 }
 
@@ -175,11 +182,14 @@ body {
 .cards-box {
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
     padding-top: 64px;
     padding-bottom: 64px;
 }
 
 .card {
+    display: flex;
+    flex-direction: column;
     width: 359px;
     padding: 44px 32px;
     box-sizing: border-box;
@@ -187,8 +197,6 @@ body {
     box-shadow: 5px 20px 50px rgba(16, 112, 177, 0.2);
     border-radius: 10px;
     padding-top: 64px;
-    display: flex;
-    flex-direction: column;
 }
 
 .card_img {
@@ -197,7 +205,6 @@ body {
 }
 
 .cards-link {
-    font-weight: 400;
     font-size: 14px;
     line-height: 30px;
     letter-spacing: 0.05em;
@@ -205,21 +212,43 @@ body {
     text-decoration: none;
 }
 
-.middle_foot_block {
+.project .h3style {
     text-align: center;
-    margin-bottom: 64px;
 }
 
-.middle_foot_block .parag {
-    padding-top: 32px;
-    width: 750px;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 26px;
-    letter-spacing: 0.05em;
-    color: #222222;
-    align-self: center;
+.project_parent {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 32px;
 }
+
+.project_item {
+    position: relative;
+    flex-grow: 1;
+}
+
+.project_img {
+    width: 100%;
+}
+
+.project_item_margin {
+    margin-right: 32px;
+}
+
+
+.project_text {
+    z-index: 1;
+    font-size: 32px;
+    line-height: 46px;
+    text-align: right;
+    letter-spacing: 0.05em;
+    color: #FFFFFF;
+    position: absolute;
+    top: 64px;
+    right: 64px;
+}
+
+
 
 .middle_adress_block {
     display: flex;
@@ -241,41 +270,87 @@ body {
 }
 
 .footer_main_block {
-    border: 1px solid rgb(255, 115, 115);
+    margin-top: 112px;
+    background: #316099;
 }
 
 .footer_center_block {
-    margin-left: 2%;
-    margin-right: 2%;
-    border: 1px solid rgb(255, 115, 115);
+    display: flex;
+    justify-content: space-between;
 }
 
 .footer_news_block {
+    margin-top: 66px;
+    margin-bottom: 29px;
     width: 495px;
-    border: 1px solid rgb(218, 86, 255);
 }
 
 .footer_news_block>h3 {
-    width: 340px;
+    margin-top: 25px;
+    margin-bottom: 32px;
+    font-size: 36px;
+    line-height: 46px;
+    letter-spacing: 0.05em;
+    color: #FFFFFF;
 }
 
-.footer_bottom_block {
-    margin-left: 2%;
-    margin-right: 2%;
-    border: 1px solid rgb(218, 86, 255);
+.footer_news_block>p {
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 0.05em;
+    color: #FFFFFF;
+    opacity: 0.6;
 }
 
 .footer_bottom_block>ul {
     display: flex;
-    padding: 0;
     justify-content: space-around;
+    padding-top: 51px;
+    padding-bottom: 70px;
 }
 
 .footer_bottom_block>ul>li {
     list-style: none;
-    padding: 30px;
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 0.05em;
+    color: #FFFFFF;
 }
 
 .footer_rights_block {
-    border: 1px solid rgb(255, 0, 0);
+    padding-top: 16px;
+    padding-bottom: 64px;
+}
+
+.footer_rights_block>p {
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 0.05em;
+    color: #FFFFFF;
+    opacity: 0.4;
+
+}
+
+.footer_button {
+    align-self: center;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    letter-spacing: 0.04em;
+    color: #FFFFFF;
+    background: #5A98D0;
+    text-decoration: none;
+    padding: 15px 80px;
+}
+
+.footer_button:hover {
+    align-self: center;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    letter-spacing: 0.04em;
+    color: #FFFFFF;
+    background: #65acea;
+    text-decoration: none;
+    padding: 15px 80px;
 }
