@@ -5,23 +5,30 @@
 
 body {
     font-family: sans-serif;
-
 }
 
 .container {
     width: 1140px;
     margin: 0 auto;
+    display: flex;
+    flex-direction: column;
 }
 
 .parag {
     font-size: 16px;
     line-height: 26px;
+    letter-spacing: 0.05em;
     color: #1F3F68;
+    opacity: 0.6;
 }
 
 .h1title {
+    font-weight: 300;
     font-size: 64px;
+    line-height: 74px;
+    letter-spacing: 0.04em;
     color: #1F3F68;
+    margin-bottom: 32px;
 }
 
 .h2style_contacts {
@@ -31,13 +38,21 @@ body {
 }
 
 .h3style {
+    font-weight: 300;
     font-size: 36px;
+    line-height: 46px;
+    text-align: center;
+    letter-spacing: 0.05em;
+    color: #000000;
 }
 
 .h4style {
+    font-weight: 400;
     font-size: 20px;
     line-height: 30px;
+    letter-spacing: 0.05em;
     color: #1F3F68;
+    margin-bottom: 14px;
 }
 
 .inpStyle {
@@ -60,29 +75,17 @@ body {
 }
 
 .header_main_block {
-    width: 100%;
-    border: 1px solid rgb(255, 115, 115);
+    height: 768px;
 }
-
-.header_center_block {
-    position: relative;
-    margin-left: 2%;
-    margin-right: 2%;
-    height: 100%;
-    border: 1px solid rgb(218, 86, 255);
-}
-
 
 .header_menu_block {
     display: flex;
-    height: 100px;
-    align-items: center;
     justify-content: space-between;
-    border: 1px solid rgb(29, 10, 34);
+    list-style-type: none;
+    padding-top: 42px;
 }
 
 .main_menu {
-
     font-size: 16pt;
     font-weight: bold;
     color: #316099;
@@ -96,21 +99,46 @@ body {
 }
 
 .header_logo_block {
-    width: 50%;
-    border: 1px solid rgb(75, 255, 75);
+    padding-top: 115px;
+    flex-grow: 1;
+    background-image: url(img/bglogo.svg);
+    background-repeat: no-repeat;
+    background-position: right center;
 }
 
-.header_bg_img {
-    border: 1px solid rgb(75, 255, 75);
-    position: absolute;
-    width: 648px;
-    height: 549px;
-    left: 430px;
-    top: 200px;
-    background: linear-gradient(0deg, #EBF3FB 8.84%, rgba(152, 195, 232, 0) 31.12%);
-    background-image: url("img/bglogo.svg");
-    background-repeat: no-repeat;
-    background-position: center;
+.top_box {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.header_top_button {
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    letter-spacing: 0.04em;
+    color: #FFFFFF;
+    background: #5A98D0;
+    box-shadow: 5px 10px 20px rgb(53, 110, 173, 0.2);
+    border-radius: 10px;
+    padding: 15px 50px;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 71px;
+}
+
+.header_top_button:hover {
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    letter-spacing: 0.04em;
+    color: #FFFFFF;
+    background: #65acea;
+    border-radius: 10px;
+    padding: 15px 50px;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 71px;
 }
 
 .header_logo_block>h1 {
@@ -128,11 +156,10 @@ body {
     justify-content: center;
     height: 200px;
     width: 100%;
-    border: 1px solid rgb(75, 255, 75);
 }
 
-.middle_center_block {
-    border: 1px solid rgb(255, 115, 115);
+.what-we-do {
+    margin-top: 64px;
 }
 
 .middle_center_block>h3 {
@@ -145,31 +172,53 @@ body {
     border: 1px solid rgb(218, 86, 255);
 }
 
-
-.middle_content_block {
+.cards-box {
     display: flex;
-    justify-content: space-around;
-    padding: 10px;
-    margin-left: 2%;
-    margin-right: 2%;
-    border: 1px solid rgb(57, 167, 57);
+    justify-content: space-between;
+    padding-top: 64px;
+    padding-bottom: 64px;
 }
 
-.middle_news_block {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 10px;
-    width: 300px;
-    height: 400px;
+.card {
+    width: 359px;
+    padding: 44px 32px;
+    box-sizing: border-box;
     background: #FFFFFF;
     box-shadow: 5px 20px 50px rgba(16, 112, 177, 0.2);
     border-radius: 10px;
+    padding-top: 64px;
+    display: flex;
+    flex-direction: column;
+}
+
+.card_img {
+    align-self: center;
+    margin-bottom: 51px;
+}
+
+.cards-link {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 30px;
+    letter-spacing: 0.05em;
+    color: #5A98D0;
+    text-decoration: none;
 }
 
 .middle_foot_block {
     text-align: center;
-    border: 1px solid rgb(255, 115, 115);
+    margin-bottom: 64px;
+}
+
+.middle_foot_block .parag {
+    padding-top: 32px;
+    width: 750px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 0.05em;
+    color: #222222;
+    align-self: center;
 }
 
 .middle_adress_block {
