@@ -111,6 +111,7 @@ body {
     background-image: url(img/bglogo.svg);
     background-repeat: no-repeat;
     background-position: right center;
+    background-size: 44%;
 }
 
 .top_box {
@@ -224,7 +225,6 @@ body {
 
 .project_item {
     position: relative;
-    flex-grow: 1;
 }
 
 .project_img {
@@ -237,7 +237,6 @@ body {
 
 
 .project_text {
-    z-index: 1;
     font-size: 32px;
     line-height: 46px;
     text-align: right;
@@ -248,7 +247,16 @@ body {
     right: 64px;
 }
 
-
+.project_text1 {
+    font-size: 32px;
+    line-height: 46px;
+    text-align: right;
+    letter-spacing: 0.05em;
+    color: #FFFFFF;
+    position: absolute;
+    top: 32px;
+    left: 32px;
+}
 
 .middle_adress_block {
     display: flex;
@@ -353,4 +361,11 @@ body {
     background: #65acea;
     text-decoration: none;
     padding: 15px 80px;
+}
+
+@media (max-width: 1024px) {
+    .container {
+        padding-left: 32px;
+        padding-right: 32px;
+    }
 }
