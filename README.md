@@ -1,1 +1,1 @@
-# Basic HTML/CSS, SASS, Bootstrap. Web Developer Stack
+# Basic HTML/CSS, SCSS, Bootstrap. Web Developer Stack
